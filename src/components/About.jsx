@@ -17,9 +17,9 @@ const About = () => {
   return (
     <div className="about">
       <div className="intro" data-aos="fade-down">
-        <h3>Hello I'm </h3>
-        <span>VIBUDH RATHORE</span>
-        <p>Web Developer</p>
+        <h3>Hello, I'm </h3>
+        <span>PARTH PANDEY</span>
+        <p>AI Undergrad</p>
         <Icons />
         <div className="btn">
           <a href={Resume} download>
@@ -42,26 +42,18 @@ const About = () => {
           </ul>
           <span>Galgotias University, Greater Noida</span>
 
-          <ul>
-            <li>
-              <p>Bachelor of Science</p>
-            </li>
-          </ul>
-          <span>CSJMU, Kanpur</span>
-
-          <ul>
             <li>
               <p>Intermediate</p>
             </li>
           </ul>
-          <span>Rosy Public School, Farrukhabad</span>
+          <span>Sainik Public School, Bahadurgarh</span>
 
           <ul>
             <li>
               <p>Matriculation</p>
             </li>
           </ul>
-          <span>Rosy Public School, Farrukhabad</span>
+          <span>Sainik Public School, Bahadurgarh</span>
         </div>
       </div>
       <Skill />
